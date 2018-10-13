@@ -709,9 +709,9 @@ public class GsmUmtsCallBarringOptions extends TimeConsumingPreferenceActivity
     }
 
     private void showDataInuseToast() {
-        String message = (String)this.getResources()
+/*        String message = (String)this.getResources()
             .getText(R.string.mobile_data_alert);
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();*/
     }
 
     private void showSwitchDdsDialog(int slotId) {

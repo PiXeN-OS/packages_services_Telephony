@@ -152,8 +152,8 @@ abstract class TelephonyConnection extends Connection implements Holdable,
                                 int srvccMessageRes = VideoProfile.isVideo(
                                         mOriginalConnection.getVideoState()) ?
                                         R.string.srvcc_video_message : R.string.srvcc_message;
-                                Toast.makeText(phone.getContext(),
-                                        srvccMessageRes, Toast.LENGTH_LONG).show();
+                                /*Toast.makeText(phone.getContext(),
+                                        srvccMessageRes, Toast.LENGTH_LONG).show();*/
                             }
                             setOriginalConnection(connection);
                             mWasImsConnection = false;
